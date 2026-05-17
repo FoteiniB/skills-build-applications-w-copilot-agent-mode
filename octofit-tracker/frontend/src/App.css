@@ -1,0 +1,90 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+.container {
+  background: rgba(255,255,255,0.95);
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  padding: 2rem 2.5vw;
+}
+
+h1, h2, h3, .card-title {
+  color: #007bff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+a, .App-link {
+  color: #00bcd4;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #007bff;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table thead {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #90caf9 !important;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00acc1 100%);
+  color: #ffe082;
+}
+
+.card {
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  margin-bottom: 2rem;
+}
+
+/* Custom logo left alignment */
+.octofit-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Favicon is handled in public/index.html and public/favicon.ico */
